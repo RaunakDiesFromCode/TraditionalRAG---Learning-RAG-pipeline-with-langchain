@@ -1,0 +1,49 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Environment variables & secrets (NEVER COMMIT SENSITIVE API KEYS)
+.env
+.env.*
+!.env.example
+
+# Vector databases, embeddings, and compiled index artifacts
+vector_stores/
+vector_store/
+faiss_store/
+*.index
+*.pkl
+chroma.sqlite3
+
+# Distribution & build artifacts
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Data files
+data/
